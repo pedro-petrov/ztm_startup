@@ -1,0 +1,41 @@
+body {
+	background: url("background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: black;
+}
+
+h1 {
+	color: #e83e8c;
+	font-family: 'Audiowide', cursive;
+}
+
+hr {
+	border-color: #8167F4;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 16rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #8167F4;
+	border: none;
+	padding: 1rem 2rem;
+	
+}
+
+.btn-primary:hover {
+	background-color: #4C3D92;
+	transition: 0.7s;
+}
